@@ -1,0 +1,18 @@
+# PyInstaller output
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS / Windows clutter
+.DS_Store
+Thumbs.db
+
+# Screenshots saved while testing
+nanovna_*.png
+nanovna_*.ppm
