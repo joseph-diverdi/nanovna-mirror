@@ -20,8 +20,11 @@ NanoVNA-V2, SAA-2 or LiteVNA, which use a different binary protocol.
 Download the build for your system, if one is provided, and run it:
 
 - **macOS:** unzip and open `NanoVNA Mirror.app`. The app isn't signed by
-  Apple, so the first time macOS will refuse to open it. Right-click (or
-  Control-click) the app, choose **Open**, then **Open** again. A build
+  Apple, so the first time macOS will refuse to open it. Click **Done** in
+  that message, then open **System Settings → Privacy & Security**, scroll
+  down to the note about "NanoVNA Mirror" being blocked, and click
+  **Open Anyway**. After that it opens normally. (On macOS 14 and earlier,
+  right-clicking the app and choosing **Open** also works.) A build
   only runs on Macs with the same processor type it was built on
   (Apple silicon `arm64` or Intel `x86_64`); the zip's name says which.
 - **Windows:** run `NanoVNA-Mirror.exe`. Windows SmartScreen may warn about
